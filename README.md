@@ -65,4 +65,4 @@ output: 0 1
 ### prerequisites
 To run the transpiler, you must have the .net 10 sdk installed as well as gcc
 
-For comprehensive information on errors or warnings, or if you just want to learn more, refer to the [documentation](/docs/docs.md).
+For comprehensive information on errors or warnings, or if you just want to learn more, refer to the [documentation](/docs/docs.md), or read the [wiki](https://esolangs.org/wiki/1bitatatime).
