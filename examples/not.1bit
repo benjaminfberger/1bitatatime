@@ -1,3 +1,0 @@
-in: x
-x = x !& x
-out: x
