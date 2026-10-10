@@ -7,6 +7,14 @@ The language is evaluated sequentially line-by-line. All lines following a `#` a
 - **`out:`** declares variables as outputs at the bottom of the file.
 - **`=`** assigns a value to a variable.
 - **`!&`** or **`nand`** evaluates bitwise nand logic: `!(A & B)`.
+- **`!|`** or **`nor`** evaluates bitwise nor logic: `!(A | B)`. 
+- **`!^`** or **`nxor`** evaluates bitwise nxor logic: `!(A ^ B)`.
+- **`!`** or **`not`** evaluates bitwise not logic: `!A`. 
+- **`|`** or **`or`** evaluates bitwise or logic: `A | B`.
+- **`&`** or **`and`** evaluates bitwise and logic: `A & B`.
+- **`^`** or **`xor`** evaluates bitwise xor logic: `A ^ B`.
+
+Note unary operators must come after their operands, e.g. `x = x !`, not `x = ! x`
 
 ### constants
 `true` and `1` are interchangable. 
