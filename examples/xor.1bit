@@ -1,6 +1,0 @@
-in: x y
-w = x !& y
-x = x !& w
-y = y !& w
-x = x !& y
-out: x

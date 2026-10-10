@@ -86,6 +86,8 @@ namespace src
                                     sb.AppendLine($"res = ~a & 1UL;"); 
                                     sb.AppendLine($"ram = (ram & ~(1UL << {idMap[dest]})) | (res << {idMap[dest]});");
                                     sb.AppendLine();
+
+                                    pc += 2;
                                 }
                                 else
                                 {
@@ -193,7 +195,7 @@ namespace src
                                                 $"ram = (ram & ~(1UL << {idMap[dest]})) | (res << {idMap[dest]});");
                                             sb.AppendLine();
 
-                                            pc++;
+                                            pc += 2;
                                             break;
                                     }
                                 }

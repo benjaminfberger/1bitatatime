@@ -1,0 +1,7 @@
+in: a b cin
+sum1 = a ^ b
+sum = sum1 ^ cin
+carry1 = a & b
+carry2 = sum1 & cin
+cout = carry1 | carry2
+out: sum cout

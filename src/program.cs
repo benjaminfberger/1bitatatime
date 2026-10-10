@@ -12,7 +12,7 @@ namespace src
 
             string sourceFile = args[0];
 
-            if (sourceFile.Split('.')[1] != ".nand")
+            if (sourceFile.Split('.')[1] != ".1bit")
                 log.warn(401);
 
             string outBinary = sourceFile.Split('.')[0];
